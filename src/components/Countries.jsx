@@ -10,6 +10,7 @@ const Countries = ({contriesPromise}) => {
     return (
         <div>
             <h1>countrie: {countries.length}</h1>
+            <h1>visited countries : 0</h1>
             
             <div className=" grid grid-cols-3">
             {
